@@ -1,0 +1,8 @@
+[Service]
+Type=simple
+
+ExecStart=/home/stemiaa/w/noVNC-master/utils/launch.sh --listen 6080 --vnc localhost:5901
+
+[Install]
+WantedBy=multi-user.target
+
